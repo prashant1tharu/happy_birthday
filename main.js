@@ -7,7 +7,7 @@
 > Booting wishOS v1.0...  
 > Initializing birthday kernel...  
 > Target: Apsana Dahal (codename: Angry Bird)  
-> Date: This Saturday 🎂  
+> Date: On this day 🎊🎊🎂  
 > Compiling joy... ✔  
 > Injecting happiness module... ✔  
 > Loading cake.svg... ✔  
