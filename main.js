@@ -29,7 +29,7 @@ The world just ran a new update:
 -- Sent with love by: Prashant 🧠💻`;
 
     let i = 0;  
-    const speed = 30;  
+    const speed = 5;  
 
     function typeWriter() {  
       if (i < terminalText.length) {  
