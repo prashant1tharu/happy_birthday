@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>  
+  <meta charset="UTF-8" />  
+  <title>🎂 Happy Birthday, Angry Bird</title>  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+ <link rel="stylesheet" href="style.css">  
+</head>  
+<body>  
+
+  <!-- === Terminal Component === -->
+  <div class="terminal-box" id="terminal-container">  
+    <div class="terminal-header">wishOS@AngryBird:~$</div>  
+    <div id="terminal"></div>  
+  </div>  
+
+  <!-- === Blog Component === -->
+  <div class="blog-page" id="blog">  
+    <h1>🎉 Happy Birthday Apsana (Angry Bird) 🎂</h1>  
+    <p>Hey Apsana! It's your special day! 🎈🎊</p>  
+    <p>Wishing you all the joy, laughter, and sunshine you bring to everyone around you. You’re not just Angry Bird, you're also the sweetest surprise in the class 🐤❤️</p>  
+    
+    <!-- cake component -->
+    <div class="cake-container">
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+    
+    <div class="cream">
+      <div class="drip"></div>
+      <div class="drip"></div>
+      <div class="drip"></div>
+      <div class="drip"></div>
+      <div class="drip"></div>
+    </div>
+
+    <div class="candle">
+      <div class="flame"></div>
+    </div>
+    
+    <div class="pics">
+      <img src="1753415981696.jpg" alt="" class="pic1">
+      <img src="1753416423275[1].jpg" alt="" class="pic2">
+      <img src="IMG_20250725_095509.jpg" alt="" class="pic3">
+    </div>
+
+       <button id="show-wish-btn" class="next-btn" type="button">Surprise 🎁</button>
+
+<!-- Overlay -->
+<div id="wish-overlay" class="wish-overlay" style="display:none;"></div>
+
+<!-- Popup Sliding Birthday Wishes Tabs -->
+<div id="wish-slider" class="wish-slider">
+  <button id="close-wish" class="close-btn" aria-label="Close popup">✕</button>
+  <div class="wish-tab active">
+    <h2>So...🎁 Do You Want a Gift?</h2>
+    <p>Of course you do. Who wouldn’t? You’re basically royalty today 👑</p>
+    <button class="next-btn" onclick="nextTab()">Next ➤</button>
+  </div>
+
+  <div class="wish-tab">
+    <h2>😜 No Gift For You!</h2>
+    <p>Opps!..Nope..Not happening. You’ve been too dramatic all year. Consider this your karma 😌💅, Angry Bird 🐦</p>
+    <button class="next-btn" onclick="nextTab()">Next ➤</button>
+  </div>
+
+  <div class="wish-tab">
+    <h2>🎉 Just Kidding...</h2>
+    <p>Happy Birthday, Apsana! May your chaos be as cute as your pout, and your smile as bright as the sun 🌞💕</p>
+    <button class="next-btn" onclick="restartTabs()">Start Again 🔁</button>
+  </div>
+</div>
+  </div>
+
+  </div>
+  </div>
+  </div>  
+  <script src="main.js"></script>
+</body>  
+</html>
