@@ -4,24 +4,29 @@
     const blog = document.getElementById("blog");
 
     const terminalText = `  
-> Booting wishOS v1.0...  
-> Initializing birthday kernel...  
-> Target: Apsana Dahal (codename: Angry Bird)  
-> Date: On this day 🎊🎊🎂  
-> Compiling joy... ✔  
-> Injecting happiness module... ✔  
-> Loading cake.svg... ✔  
-  
-🎉 Happy Birthday, Angry Bird! 🎉  
-  
-Wishing you a life full of joy, bug-free days,   
-and high-speed happiness that never crashes.  
-  
-You may get one year older,  
-but your vibe is always on the latest version.  
-  
--- Transmission sent by: Prashant 🧠💻  
-    `;
+> Booting wishOS v1.0...
+> Initializing birthday kernel...
+> Target identified: Apsana Dahal (A.k.a Angry Bird)
+> Current date: On this Day 4/10.(7/26) 🗓️
+> Checking system mood... 🌈 Uplifted
+> Compiling joy... ✔Done
+> Injecting happiness module... ✔Done
+> Deploying virtual cake... 🍰 ✔Done
+> Launching smile.exe... 😄 ✔Done
+> Generating candles.py... 🔥 ✔Done
+> Singing: happy_birthday.mp3 🎶 ✔Done
+> Optimizing wish packets... ✨ ✔Done
+> Pinging heartbeats... ❤️ ✔Done
+> Establishing connection with: Angry Bird 💬
+🎉 SYSTEM ANNOUNCEMENT 🎉
+Happy Birthday, Apsana Dahal!
+Your energy is officially upgraded to version +1, but your charm remains backwards-compatible with every heart.
+Here’s your changelog:
+- +100 laughter points 😂, +50 kindness boosts 💖, +1 legendary status unlocked 🏆
+The world just ran a new update:
+> apt install --only-upgrade awesome-human=AngryBird
+🎂 Enjoy your day to the fullest, Angry Bird! 🎂  
+-- Sent with love by: Prashant 🧠💻`;
 
     let i = 0;  
     const speed = 30;  
